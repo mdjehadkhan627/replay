@@ -1,0 +1,87 @@
+.purchase-area{
+padding: 40px 0;
+
+
+h1{
+    font-size: 40px;
+        position: relative;
+        text-align: center;
+        padding: 10px 0;
+
+        &:before{
+            content: '';
+            display: block;
+            position: absolute;
+            width: 150px;
+            height: 2px;
+            background-color: rgb(67, 202, 13);
+            top: 100%;
+            left: 484px;
+}
+
+}
+
+.pp{
+    font-size: 15px;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.purchase{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap:2%;
+    padding: 20px 0;
+
+    .purchase-one{
+        border: 1px solid #f2f2f2;
+       padding-bottom: 20px;
+        text-align: center;
+
+        h2 {
+            padding: 15px 0;
+        }
+        h4{
+            padding: 6px 0;
+            background-color: #cac6c6
+           
+        }
+
+        ul{
+            padding-left: 0;
+
+            li {
+                line-height: 26px;
+                padding: 10px 0;
+                border-bottom: 1px solid #aaa6a6;
+
+                &:hover{
+                    background-color: #aaa6a6;
+                    color: #fff;
+                }
+                
+            }
+        }
+
+        
+
+       
+
+        a.btnboder {
+            background-color: olive;
+            color: #fff;
+            padding: 10px 15px;
+            font-size: 20px;
+            text-transform: capitalize;
+            border-radius: 5%;
+            display: inline-block;
+            margin-top: 20px;
+        }
+       
+            
+        }
+            
+    }
+}
+

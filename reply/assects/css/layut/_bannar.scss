@@ -1,0 +1,45 @@
+.bannar-area{
+    @include bg;
+    height: 100vh;
+
+    .bannar{
+        
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            flex-direction: column;
+            color: #fff;
+
+            p{
+                font-size: 22px;
+                color: #fff;
+            }
+        
+        h1{
+            font-size: 42px;
+           margin-bottom: 20px;
+            text-transform: uppercase;
+            margin-top: 20px;
+            color: #fff;
+            position: relative;
+
+
+            &:before{
+            position: absolute;
+            content: '';
+             display: table;
+            clear: both;
+            width: 140px;
+            height: 2px;
+            background-color: chartreuse;
+            top: 113%;
+             left: 20%;
+            }
+        }
+
+        .btn{
+            margin-right: 20px;
+        }
+    }
+}

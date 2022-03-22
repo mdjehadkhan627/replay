@@ -1,0 +1,16 @@
+.icon-area{
+    padding: 60px 0;
+
+    .icon{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        align-items: center;
+        text-align: center;
+       grid-gap:3%;
+
+       i{
+           font-size: 40px;
+           color:black;
+       }
+    }
+}

@@ -1,0 +1,48 @@
+.header-area {
+    padding: 20px 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    color: #fff;
+    &.stycky {
+        background: #ff7720;
+        
+        color: #333;
+    }
+
+    .header{
+        display: grid;
+        grid-template-columns: 15% 80%;
+        grid-gap:5%;
+        align-items: center;
+
+        .logo h1 {
+            font-size: 42px;
+            text-transform: uppercase;
+        }
+        .manu ul{
+            
+        display: flex;
+        justify-content: flex-end;
+
+        li{
+            &.current{
+                color:teal;
+            }
+            a{
+                font-size: 18px;
+                text-transform: capitalize;
+                margin-right: 24px;
+                color: #fff;
+
+                &:hover{
+                    color: chocolate;
+                }
+            }
+        }
+
+        }
+    
+    }
+}

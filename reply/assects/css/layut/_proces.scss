@@ -1,0 +1,78 @@
+.proces-area{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+
+    &:before{
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: #333;
+        opacity: .9;
+        z-index: -1;
+    }
+    
+
+
+    h1{
+        font-size: 40px;
+        position: relative;
+        text-align: center;
+        padding: 20px 0;
+        color: #fff;
+
+
+        &:before{
+                content: '';
+                display: block;
+                position: absolute;
+                width: 150px;
+                height: 2px;
+                background-color: rgb(67, 202, 13);
+                top: 100%;
+                left: 588px;
+        }
+    }
+
+    .pp{
+        font-size: 15px;
+        width: 500px;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 12px;
+        color: #fff;
+    }
+
+    .proces{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-gap:2%;
+        padding: 40px 0;
+        color: #fff;
+
+        .proces-one h4 {
+            font-size: 20px;
+            position: relative;
+            background-color: rgb(183, 212, 16);
+            padding: 2px 0;
+            width: 250px;
+            padding-left: 7px;
+        }
+        
+        span {
+            top: 0;
+            position: absolute;
+            right: 0;
+            width: 44px;
+            background-color: rgb(34, 17, 194);
+            height: 32px;
+            line-height: 35px;
+            text-align: center;
+         }
+}
+ }

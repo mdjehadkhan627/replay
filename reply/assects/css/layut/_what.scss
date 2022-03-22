@@ -1,0 +1,43 @@
+
+
+
+
+
+
+
+
+
+
+.What-area {
+    padding: 40px 0;
+
+    .what {
+        width: 604px;
+        margin: 0 auto;
+        text-align: center;
+        h3 {
+            font-size: 30px;
+            text-transform: capitalize;
+        }
+        h1 {
+            font-size: 39px;
+            margin-bottom: 20px;
+            position: relative;
+
+            &:before{
+                position: absolute;
+                content: '';
+                display: table;
+                width: 180px;
+                height: 2px;
+                background-color: rgb(202, 65, 10);
+                top: 54px;
+                left: 210px;
+                
+            }
+        }
+    }
+}
+
+
+

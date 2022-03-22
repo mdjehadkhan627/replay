@@ -1,0 +1,62 @@
+.student-area{
+
+
+h1{
+    font-size: 40px;
+        position: relative;
+        text-align: center;
+        padding: 10px 0;
+
+        &:before{
+            content: '';
+            display: block;
+            position: absolute;
+            width: 150px;
+            height: 2px;
+            background-color: rgb(67, 202, 13);
+            top: 100%;
+            left: 484px;
+}
+
+}
+
+.pp{
+    font-size: 15px;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.student{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+    padding-top: 20px;
+
+    .student-one{
+        img{
+            width: 80%;
+            height: 80%;
+            
+        }
+        position: relative;
+
+        .student-butom{
+            position: absolute;
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            width: 80%;
+            padding: 10px;
+            top: 391px;
+
+            i{
+                margin-left: 13px;
+                 font-size: 20px;
+                 padding: 10px 0;
+            }
+        }
+    }
+}
+
+ }

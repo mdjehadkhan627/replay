@@ -1,0 +1,80 @@
+.sarvice-area{
+    padding: 20px 0;
+    h1{
+        font-size: 40px;
+        position: relative;
+        text-align: center;
+        padding: 10px 0;
+
+
+        &:before{
+                content: '';
+                display: block;
+                position: absolute;
+                width: 150px;
+                height: 2px;
+                background-color: rgb(67, 202, 13);
+                top: 100%;
+                left: 484px;
+        }
+    }
+
+    .pp{
+        font-size: 15px;
+        width: 500px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .sarvice{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap:3%;
+        padding: 40px 0;
+        text-align: center;
+        
+        .sarvice-one{
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            padding: 15px 10px;
+            border-radius: 5%;
+            border-bottom: 2px solid transparent;
+            transition: .6s;
+
+            &:hover{
+                box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+                border-bottom: 2px solid rgb(241, 45, 10);
+
+                &:hover i{
+                    background-color: blueviolet;
+                    color: #fff;
+                }
+
+                
+            }
+
+           
+
+
+            
+        i.fa.fa-twitter {
+            font-size: 30px;
+            width: 60px;
+            height: 60px;
+            line-height: 60px;
+            border: 1px solid rgb(211, 181, 12);
+            border-radius: 50%;
+        }
+        h4 {
+            font-size: 26px;
+            padding-top: 12px;
+        }
+        
+        p {
+            font-size: 16px;
+            line-height: 22px;
+            font-weight: 400;
+            text-align: center;
+        }
+        }
+
+    }
+}

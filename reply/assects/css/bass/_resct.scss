@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+    vertical-align: middle;
+}
+
+@mixin bg{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+
+    &::before{
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: #333;
+        opacity: .7;
+        z-index: -1;
+    }
+}
+
+.btn{
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-right:10px;
+    border-radius: 5px;
+    &.btn-read{
+        background: #df4010;
+        
+        padding:8px 30px;
+        color:#fff;
+        &:hover{
+            background: transparent;
+            color: #111269;
+        }
+    }
+    &.btn-contact{
+        
+        border:2px solid #ff7720;
+        padding:8px 30px;
+        color:#fff;
+        &:hover{
+            background: #ff7720;
+            border:2px solid transparent;
+        }
+    }
+}
+    
